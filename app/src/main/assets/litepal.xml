@@ -3,8 +3,8 @@
     <dbname value="sun_app" />
     <version value="1" />
     <list>
-        <mapping class="com.sun_app.android.db.Province" />
-        <mapping class="com.sun_app.android.db.City" />
-        <mapping class="com.sun_app.android.db.County" />
+        <mapping class="com.mytqapp.sunapp.db.Province" />
+        <mapping class="com.mytqapp.sunapp.db.City" />
+        <mapping class="com.mytqapp.sunapp.db.County" />
     </list>
 </litepal>
