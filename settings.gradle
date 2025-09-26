@@ -10,6 +10,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        // settings.gradle 或 build.gradle
+        maven { url 'https://maven.aliyun.com/repository/public' } // 阿里云镜像
+        maven { url 'https://maven.aliyun.com/repository/google' } // Google 镜像
+
     }
 }
 rootProject.name = "sunapp"
